@@ -30,6 +30,7 @@ def display_word(word, guessed_letters):
 def play_game():
     word = select_word()
     guessed_letters = set()
+    # Players get six incorrect guesses before the game ends.
     attempts = 6
 
     print("Welcome to Summer's Word Guessing Game!")
